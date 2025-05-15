@@ -1,0 +1,16 @@
+{
+	"name": "Eminence: Tema de Astro para Cloudflare Workers",
+	"short_name": "Eminence Astro",
+	"description": "El mejor tema de inicio de Astro para cualquier tipo de proyecto, para que puedas empezar a desarrollar sin preocuparte por la configuración. ¡SIMPLEMENTE DESARROLLA!",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#cc0000",
+	"theme_color": "#cc0000",
+	"icons": [
+		{
+			"src": "/icon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
