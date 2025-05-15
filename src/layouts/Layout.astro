@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 
 import Seo from "@/components/seo/Seo.astro";
+import SkipToMain from "@/components/util/SkipToMain.astro";
 
 type Props = SeoPage;
 ---
@@ -17,7 +18,8 @@ type Props = SeoPage;
 	</head>
 	<body>
 		<slot name="body-start" />
-		<main id="main" role="main" tabindex="-1">
+		<SkipToMain />
+		<main id="main" role="main">
 			<slot />
 		</main>
 		<slot name="body-end" />
