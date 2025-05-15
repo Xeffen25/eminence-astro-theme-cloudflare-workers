@@ -39,7 +39,7 @@
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
-	"vars": { "SITE_NAME": "Eminence: Tema de Astro para Cloudflare Workers" },
+	// "vars": { "EXAMPLE_VAR": "Example Value" },
 	/**
 	 * Note: Use secrets to store sensitive data.
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
