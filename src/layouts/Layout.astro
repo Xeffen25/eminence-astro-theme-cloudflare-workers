@@ -1,0 +1,22 @@
+---
+import "@/styles/global.css";
+import SFavicon from "~/favicon.svg";
+---
+
+<!doctype html>
+<html lang={Astro.currentLocale}>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Astro</title>
+		<slot name="head" />
+		<link rel="icon" type="image/svg+xml" href={SFavicon.src} />
+	</head>
+	<body>
+		<slot name="body-start" />
+		<main id="main" role="main" tabindex="-1">
+			<slot />
+		</main>
+		<slot name="body-end" />
+	</body>
+</html>
