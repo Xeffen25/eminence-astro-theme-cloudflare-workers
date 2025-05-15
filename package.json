@@ -30,6 +30,6 @@
 		"lint-staged": "^16.0.0",
 		"prettier": "^3.5.3",
 		"prettier-plugin-astro": "^0.14.1",
-		"wrangler": "^4.15.1"
+		"wrangler": "^4.15.2"
 	}
 }
