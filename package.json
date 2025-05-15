@@ -19,6 +19,7 @@
 		"@astrojs/cloudflare": "^12.5.3",
 		"@tailwindcss/vite": "^4.1.7",
 		"astro": "^5.7.13",
+		"astro-seo-schema": "^5.0.0",
 		"tailwindcss": "^4.1.7"
 	},
 	"devDependencies": {

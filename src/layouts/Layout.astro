@@ -1,6 +1,9 @@
 ---
 import "@/styles/global.css";
-import SFavicon from "~/favicon.svg";
+
+import Seo from "@/components/seo/Seo.astro";
+
+type Props = SeoPage;
 ---
 
 <!doctype html>
@@ -10,7 +13,7 @@ import SFavicon from "~/favicon.svg";
 		<meta name="viewport" content="width=device-width" />
 		<title>Astro</title>
 		<slot name="head" />
-		<link rel="icon" type="image/svg+xml" href={SFavicon.src} />
+		<Seo {...Astro.props} />
 	</head>
 	<body>
 		<slot name="body-start" />
