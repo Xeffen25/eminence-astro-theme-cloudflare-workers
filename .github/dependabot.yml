@@ -12,8 +12,6 @@ updates:
           day: "sunday"
       commit-message:
           prefix: "Dep: "
-      reviewers:
-          - "Xeffen25"
       assignees:
           - "Xeffen25"
       labels:
