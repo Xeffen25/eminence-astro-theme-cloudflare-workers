@@ -1,7 +1,18 @@
 # Astro Starter Kit: Minimal
 
 ```sh
-npm create cloudflare@latest -- --template=Xeffen25/eminence-astro-theme-cloudflare-workers
+npm create astro@latest -- --template Xeffen25/eminence-astro-theme-cloudflare-workers
+```
+
+Change all names where needed.
+
+```sh
+npm run format:fix
+```
+
+```sh
+git add .
+git commit -m "Initial commit"
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
