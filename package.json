@@ -3,11 +3,11 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "astro dev",
-		"build": "astro build",
-		"preview": "astro build && wrangler dev",
 		"astro": "astro",
-		"deploy": "astro build && wrangler deploy",
+		"dev": "wrangler types && astro dev",
+		"build": "wrangler types && astro build",
+		"preview": "wrangler types && astro build && wrangler dev",
+		"deploy": "wrangler types && astro build && wrangler deploy",
 		"cf-typegen": "wrangler types",
 		"format:fix": "prettier . --write",
 		"format:check": "prettier . --check"
