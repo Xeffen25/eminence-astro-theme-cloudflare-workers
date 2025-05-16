@@ -12,7 +12,7 @@ type Props = SeoPage;
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
+		<title>{Astro.props.title}</title>
 		<slot name="head" />
 		<Seo {...Astro.props} />
 	</head>
