@@ -1,15 +1,15 @@
-# Eminence: Astro Theme for Cloudflare Workets
+# 👑 Eminence: Astro Theme for Cloudflare Workets
 
 This is a better starting point for anyone looking to develop a website using Astro and deploying it on Cloudflare Workers, one of the best ways to get a fast, reliable and infinitely customizable site. It's main features are:
 
-- **SEO Ready:** SEO components integrated in the layout for ease of use. As well as: `robots.txt`, `site.webmanifest` and `sitemap.xml` ready for you.
-- **Config:** Cloudflare, Astro, Typescript, Commands, Editors... Everything is configured so you can just code
-- **TailwindCSS:**  We all know and love tailwind for easy and consistent styling.
-- **Format:** Prettier formats your code for consistency as well as checks it on commit, push and pull.
-- **Project Structure:** this has been improved so you don't have to think about where something goes, there is already a place for it.
-- **Github Labels:** labels, issue templates, workflows, dependabot, commit structure... You have all tools you need to keep an up to date and tidy project.
+- 🔍 **SEO Ready:** SEO components integrated in the layout for ease of use. As well as: `robots.txt`, `site.webmanifest` and `sitemap.xml` ready for you.
+- ⚙️ **Config:** Cloudflare, Astro, Typescript, Commands, Editors... Everything is configured so you can just code
+- 🎨 **TailwindCSS:**  We all know and love tailwind for easy and consistent styling.
+- 🧹 **Format:** Prettier formats your code for consistency as well as checks it on commit, push and pull.
+- 📂 **Project Structure:** this has been improved so you don't have to think about where something goes, there is already a place for it.
+- 🗂️ **Github:** labels, issue templates, workflows, dependabot, commit structure... You have all tools you need to keep an up to date and tidy project.
 
-## Getting started 🚀
+## 🚀 Getting started
 
 Follow these instructions and commands to start your own project.
 
@@ -61,4 +61,8 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🔍 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check the [wiki](https://docs.astro.build) or related docs:
+- [Cloudflare Workers]()
+- [Astro]()
+- [Tailwind]()
+- [Prettier]()
