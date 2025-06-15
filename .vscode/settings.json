@@ -14,6 +14,7 @@
 	"editor.detectIndentation": false,
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnSave": true,
+	"git.autofetch": "all",
 	"IDX.aI.enableInlineCompletion": true,
 	"IDX.aI.enableCodebaseIndexing": true
 }
