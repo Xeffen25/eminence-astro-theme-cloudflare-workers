@@ -1,3 +1,5 @@
+[![CI](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/code-quality.yml/badge.svg)](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/code-quality.yml)
+
 # 👑 Eminence: Astro Theme for Cloudflare Workers
 
 This is a better starting point for anyone looking to develop a website using Astro and deploying it on Cloudflare Workers, one of the best ways to get a fast, reliable and infinitely customizable site. It's main features are:
