@@ -1,4 +1,4 @@
-[![CI](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/code-quality.yml/badge.svg)](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/code-quality.yml)
+[![CI](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/CI.yml/badge.svg)](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/CI.yml)
 
 # 👑 Eminence: Astro Theme for Cloudflare Workers
 
