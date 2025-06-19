@@ -1,6 +1,5 @@
 [![CI](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/CI.yml/badge.svg)](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/actions/workflows/CI.yml)
-![CD](https://img.shields.io/endpoint?url=https%3A%2F%2Fcloudflare-workers-build-checks-bridge.xeffen25.workers.dev%2Fcloudflare-workers-build-checks%2Fstatus)
-
+[![CD](https://img.shields.io/endpoint?url=https%3A%2F%2Fcloudflare-workers-build-checks-bridge.xeffen25.workers.dev%2Fcloudflare-workers-build-checks%2Fstatus)](https://cloudflare-workers-build-checks-bridge.xeffen25.workers.dev/cloudflare-workers-build-checks/status)
 
 # 👑 Eminence: Astro Theme for Cloudflare Workers
 
