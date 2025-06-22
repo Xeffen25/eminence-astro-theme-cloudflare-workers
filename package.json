@@ -16,7 +16,7 @@
 		"*": "prettier --check"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^12.5.4",
+		"@astrojs/cloudflare": "^12.6.0",
 		"@astrojs/sitemap": "^3.4.1",
 		"@tailwindcss/vite": "^4.1.10",
 		"astro": "^5.9.3",
