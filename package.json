@@ -10,27 +10,29 @@
 		"deploy": "wrangler types && astro build && wrangler deploy",
 		"cf-typegen": "wrangler types",
 		"format:fix": "prettier . --write",
-		"format:check": "prettier . --check"
+		"format:check": "prettier . --check",
+		"upgrade": "npx @astrojs/upgrade && ncu -u && npm install"
 	},
 	"lint-staged": {
 		"*": "prettier --check"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^12.5.4",
+		"@astrojs/cloudflare": "^12.6.0",
 		"@astrojs/sitemap": "^3.4.1",
 		"@tailwindcss/vite": "^4.1.10",
-		"astro": "^5.9.3",
+		"astro": "^5.10.1",
 		"astro-robots-txt": "^1.0.0",
 		"astro-seo-schema": "^5.0.0",
 		"tailwindcss": "^4.1.10"
 	},
 	"devDependencies": {
-		"@types/node": "^24.0.1",
+		"@types/node": "^24.0.4",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.1.2",
-		"prettier": "^3.5.3",
+		"npm-check-updates": "^18.0.1",
+		"prettier": "^3.6.1",
 		"prettier-plugin-astro": "^0.14.1",
-		"prettier-plugin-tailwindcss": "^0.6.12",
-		"wrangler": "^4.20.0"
+		"prettier-plugin-tailwindcss": "^0.6.13",
+		"wrangler": "^4.21.2"
 	}
 }
