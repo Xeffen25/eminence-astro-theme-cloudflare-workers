@@ -88,5 +88,10 @@
 		"name": "Format",
 		"color": "c2e0c6",
 		"description": "Related to files format."
+	},
+	{
+		"name":"Testing",
+		"color": "000000",
+		"description": "Testing related"
 	}
 ]
