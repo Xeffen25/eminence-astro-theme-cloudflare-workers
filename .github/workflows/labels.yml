@@ -16,6 +16,6 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Run Eminence Label Manager
-              uses: Xeffen25/eminence-label-manager@1.0.0
+              uses: Xeffen25/eminence-label-manager@latest
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
