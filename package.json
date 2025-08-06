@@ -13,10 +13,14 @@
 		"format:check": "prettier . --check",
 		"lint:fix": "eslint . --fix",
 		"lint:check": "eslint .",
-		"upgrade": "npx @astrojs/upgrade && ncu -u && npm install"
+		"upgrade": "npx @astrojs/upgrade && ncu -u && npm install",
+		"prepare": "husky"
 	},
 	"lint-staged": {
-		"*": "prettier --check"
+		"*": [
+			"eslint",
+			"prettier --check"
+		]
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^12.6.2",
