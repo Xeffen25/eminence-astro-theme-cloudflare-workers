@@ -40,7 +40,7 @@
 		"astro": "^5.12.9",
 		"astro-robots-txt": "^1.0.0",
 		"astro-seo-schema": "^5.1.0",
-		"tailwindcss": "^4.1.11"
+		"tailwindcss": "^4.1.12"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.8.1",
