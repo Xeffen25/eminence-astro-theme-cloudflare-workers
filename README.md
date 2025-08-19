@@ -24,10 +24,11 @@ npm create astro@latest -- --template Xeffen25/eminence-astro-theme-cloudflare-w
 
 ### 2. Change names
 
-1. a
-2. b
-3. c
-4. d
+1. `wrangler.jsonc` name and configure routes and workers_dev
+2. `astro.config.mjs` site
+3. `src/components/seo/OpenGraph.astro` og:site_name content
+4. `public/site.webmanifest` name, short_name, description, backgound_color, theme_color
+5. `src/pages/index.astro` title and contents of the page
 
 ### 3. Format
 
@@ -66,7 +67,7 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check the [wiki](https://docs.astro.build) or related docs:
 
-- [Cloudflare Workers]()
-- [Astro]()
-- [Tailwind]()
-- [Prettier]()
+- [Cloudflare Workers](https://developers.cloudflare.com/workers/)
+- [Astro](https://astro.build/)
+- [Tailwind](https://tailwindcss.com/)
+- [Prettier](https://prettier.io/docs/)
