@@ -2,3 +2,7 @@
 .prettierignore
 .gitattributes
 .gitignore
+.idx/dev.nix
+public/.assetsignore
+**/*.gitkeep
+**/*.png
