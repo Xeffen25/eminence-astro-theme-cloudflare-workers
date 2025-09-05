@@ -1,20 +1,20 @@
 {
-	"files.associations": {
-		"wrangler.json": "jsonc",
-		"*.css": "tailwindcss"
-	},
-	"editor.wordWrapColumn": 120,
-	"editor.tabSize": 4,
-	"editor.insertSpaces": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 120,
 	"prettier.printWidth": 120,
+	"prettier.singleQuote": false,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
-	"prettier.singleQuote": false,
-	"editor.detectIndentation": false,
-	"files.autoSave": "onFocusChange",
-	"editor.formatOnSave": true,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"files.autoSave": "off",
 	"git.autofetch": "all",
-	"IDX.aI.enableInlineCompletion": true,
-	"IDX.aI.enableCodebaseIndexing": true
+	"IDX.aI.enableCodebaseIndexing": true,
+	"IDX.aI.enableInlineCompletion": true
 }
