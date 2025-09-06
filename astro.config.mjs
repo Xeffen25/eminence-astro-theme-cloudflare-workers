@@ -8,6 +8,8 @@ import robotsTxt from "astro-robots-txt";
 
 import react from "@astrojs/react";
 
+import mdx from "@astrojs/mdx";
+
 // https://astro.build/config
 export default defineConfig({
 	site: "https://eminence-astro-workers.xeffen25.com/",
@@ -31,5 +33,5 @@ export default defineConfig({
 	},
 
 	output: "server",
-	integrations: [sitemap(), robotsTxt(), react()],
+	integrations: [sitemap(), robotsTxt(), react(), mdx()],
 });
