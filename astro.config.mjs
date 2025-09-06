@@ -25,6 +25,9 @@ export default defineConfig({
 
 	vite: {
 		plugins: [tailwindcss()],
+		resolve: {
+			...(import.meta.env.PROD ? { alias: { "react-dom/server": "react-dom/server.edge" } } : {}),
+		},
 	},
 
 	output: "server",
