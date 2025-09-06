@@ -40,12 +40,12 @@ npm run format:fix
 
 ```sh
 git add .
-git commit -m "Initial commit"
+git commit -m "Initial commit" --no-verify
 ```
 
 ### 5. Start Coding! 🚀
 
-If you know how it works just start coding! However, if this is your fist time seing this template head to the [Wiki](wiki/) and learn everything that has been improved on the Astro Starter so you can save time and have a better DX. If you have suggestions or improvements please make and Issue or Disccussion about it. We appreaciate feedback and criticism highly!
+If you know how it works just start coding! However, if this is your fist time seing this template head to the [Wiki](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-workers/wiki) and learn everything that has been improved on the Astro Starter so you can save time and have a better DX. If you have suggestions or improvements please make and Issue or Disccussion about it. We appreaciate feedback and criticism highly!
 
 ## 🤖 Commands
 
@@ -60,6 +60,11 @@ All commands are run from the root of the project, from a terminal:
 | `npm run cf-typegen`      | Generate cloudflare types                        |
 | `npm run format:fix`      | Format all your project                          |
 | `npm run format:check`    | Check if all your project is formatted correctly |
+| `npm run lint:fix`        | Lint all your project                            |
+| `npm run lint:check`      | Check if all your project is linted correctly    |
+| `npm run fix`             | Lint and format all your project                 |
+| `npm run check`           | Check if all is linted and formatted correctly   |
+| `npm run upgrade`         | Update all depencies to latest version           |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
@@ -71,3 +76,4 @@ Feel free to check the [wiki](https://docs.astro.build) or related docs:
 - [Astro](https://astro.build/)
 - [Tailwind](https://tailwindcss.com/)
 - [Prettier](https://prettier.io/docs/)
+- [ESLint](https://eslint.org/docs/latest/)
