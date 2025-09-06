@@ -9,6 +9,8 @@
 			"@/*": ["src/*"],
 			"~/*": ["public/*"]
 		},
-		"verbatimModuleSyntax": true
+		"verbatimModuleSyntax": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "react"
 	}
 }
