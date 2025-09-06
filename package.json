@@ -13,6 +13,8 @@
 		"format:check": "prettier . --check",
 		"lint:fix": "eslint . --fix",
 		"lint:check": "eslint .",
+		"fix": "prettier . --write && eslint . --fix",
+		"check": "prettier . --check && eslint .",
 		"upgrade": "npx @astrojs/upgrade && ncu -u && npm install",
 		"prepare": "husky",
 		"commit": "cz"
